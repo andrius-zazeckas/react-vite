@@ -1,11 +1,9 @@
-import { Component } from 'react';
+import './Header.css';
 
-export default class Header extends Component {
-  render() {
-    return (
-      <header>
-        <h1>Welcome to the world of Star Wars</h1>
-      </header>
-    );
-  }
-}
+export const Header = () => {
+  return (
+    <header>
+      <h1>Welcome to the world of Star Wars</h1>
+    </header>
+  );
+};
